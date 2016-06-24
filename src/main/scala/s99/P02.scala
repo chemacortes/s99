@@ -22,6 +22,6 @@ object P02 {
     case _             => None
   }
 
-  val penultimate = penultimateBuiltin _
+  def penultimate[A](ls: List[A]) = penultimateBuiltin(ls)
 
 }

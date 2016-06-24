@@ -23,5 +23,5 @@ object P01 {
   }
 
   //alias
-  val last = lastBuiltin _
+  def last[A](ls: List[A]) = lastBuiltin(ls)
 }
